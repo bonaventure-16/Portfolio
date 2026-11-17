@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <title>My Portfolio | Front End Developer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content=" My Front-End Developer Portfolio.">
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header>
+
+
+        <!-- place navbar here -->
+        <!--  THIS IS my navbar -- bs5_nav_placeholder -->
+
+        <nav id="navv"
+            class="navbar navbar-expand-lg navbar-light  nav d-flex justify-content-center align-items-center gap-2  fixed-top mb-5 pb-sm-4 mb-2">
+            <div class="container fw-bold">
+                <a class="navbar-brand" href="#"><span id="Check">vol</span><span id="Check">pinus</span></a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home" aria-current="page">Home
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#aboutme">About Me.</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#Projects" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects.</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#cloud">CloudNet -- A weather forecast website.</a>
+                                <a class="dropdown-item" href="#todo">Notime -- A task manager website </a>
+                                <a class="dropdown-item" href="#quiz">Trivia -- A quiz website </a>
+                                <a class="dropdown-item" href="#bloggg">Blog --A full stack blog website</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#phone">Contacts.</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <button id="lumen" type="button" class="text-primary btn btn-outline-dark">
+                            Dark mode.
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <main>
+        <!-- welcome to my portfolio website. -->
+        <section id="home ">
+            <div class=" d-flex row align-items-md-stretch mt-4">
+                <div class="col-md-6 bg- mb-2">
+                    <div class="h-100 p-5 ">
+                        <h2>Hi, I'm Bonaventure.</h2>
+                        <p> A Front-End Developer. </p>
+                        <p>I build websites that are easy and simple to use.</p>
+                        <p>I have a passion for building functional and interactive websites with responsive design.</p>
+                         <a
+                            name=""
+                            id=""
+                            class="btn btn-primary"
+                            href="C_V.pdf copy copy.docx"
+                            role="button"
+                            >Upload my CV.</a
+                         >
+                          
+                    </div>
+                </div>
+
+                <div class="col-md-6 bg- mb-2">
+                    <div class="h-100 p-5 ">
+                        <div class="card">
+                            <img class="card-img-top" src="IMG_20260405_114727_665.jpg" alt="" />
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="aboutme">
+            <div class="row align-items-md-stretch text-center">
+                <div class="col-md-12">
+                    <div class="h-100 p-5  border-bottom-3">
+                        <h2>About Me.</h2>
+                        <h5>A brief introduction about myself</h5>
+                        <p>
+                        <div class="row justify-content-center align-items-center g-2 mb-2">
+                            <div class="col">Html</div>
+                            <div class="col">CSS</div>
+                            <div class="col">JavaScript</div>
+                        </div>
+                        <div class="row justify-content-center align-items-center g-2 mb-2">
+                            <div class="col">Git.</div>
+                            <div class="col">Github.</div>
+                            <div class="col">Django.</div>
+                        </div>
+                        <div class="row justify-content-center align-items-center g-2 mb-2">
+                            <div class="col">Wordpress.</div>
+                            <div class="col">Bootstrap.</div>
+                            <div class="col">A basic knowledge of backend and database and interested in improving my
+                                skills.
+                            </div>
+                            <div class="row justify-content-center align-items-center g-2 mb-2">
+                            <div class="col"></div>
+                            <div class="col">React.</div>
+                            <div class="col">
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+
+        </section>
+
+        <section id="Projects">
+            <div>
+                <h2 class="d-flex justify-content-center align-items-center">Projects</h2>
+                <p class="lead mb-3 d-flex justify-content-center align-items-center">
+                    These are some of the things I worked on.
+                </p>
+
+                <div class="d-flex row justify-content-center align-items-center  baseline g-2 mb-4 ">
+                    <div class="col">
+                        <div class="card" id="cloud">
+                            <div class="card-body">
+                                <h4 class="card-title">CloudNet</h4>
+                                <p class="card-text">A weather application designed to display and retrieve weather based information.</p>
+                                <p><a href="https://cloudnet-nu.vercel.app">Click Here.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="todo">
+                          <div class="card-body">
+                                <h4 class="card-title">Tic-Tac-Toc.</h4>
+                                <p class="card-text">A gaming interface allowing users to play against an Opponent.
+                                 </p>
+                                <p><a href="https://tic-tac-vert.vercel.app">Click Here.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                     <div class="col text-center">
+                        <div class="card">
+                            <div class="card-body" id="bloggg">
+                                <h4 class="card-title">Blog</h4>
+                                <p class="classtext">A full-stack blog management  and publishing website with a user-friendly interface for creating, editing, and publishing blog posts.</p>
+                                <p><a href="https://js-for-webpg.onrender.com">Click Here.</a></p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col">
+                        <div class="card" id="quiz">
+                            <div class="card-body">
+                                <h4 class="card-title">Trivia.</h4>
+                                <p class="card-text">A mini interactive quiz inbuilt with a few questions.</p>
+                                <p><a href="https://trivia-gamma-eight.vercel.app">Click Here.</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+
+        <section id="phone" class=" p-5" m-3>
+            <div class="text-center">
+                <h2>Reach out to me.</h2>
+                <p>Are you interested in my work, or have an opportunity for me to aid you in something ?</p>
+
+            </div>
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    <div class="h-100 p-5  border rounded-3">
+                        <h2>Let's Work Together</h2>
+                        <p>
+                            Send me an email.
+                        </p>
+                        <button class="btn btn-outline-primary p-0 mb-2" type="button">
+                            <a class="btn btn-primary" href="mailto:obiekeziebonaventure5@gmail.com">Email me.
+                                <div>obiekeziebonaventure5@gmail.com</div>
+                            </a>
+
+                        </button>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5  border rounded-3">
+                        <h2>Don't wanna send me an email.
+                        </h2>
+
+                        <p>
+                            This is my number, give me a call, let's chat on Whatsapp
+                            or message
+                        </p>
+
+                        <button class="btn btn-outline-primary p-0 mb-2" type="button">
+                            <a class="btn btn-primary" href="tel:+23407075304649">Chat or call me.
+                                <strong> +234 07075304649</strong>
+                            </a>
+
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <strong class="d-flex justify-content-center align-items-center p-5"> <span>&copy;</span> 2026. My Portfolio.
+            All Rights reserved. </strong>
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
+
